@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="/dist/output.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+</head>
+<body>
+    <main class="container relative mx-auto w-screen h-screen flex flex-col justify-between items-center bg-gradient-to-r from-[#432093] to-[#90DAFD]">
+        <!--navigation-->
+        <div class="w-full flex justify-between p-8">
+            <div class="text-white">Logo</div>
+            <div class="text-white">PRODUCT SLIDER</div>
+            <div class="flex items-center space-x-4">
+                <div><img class="w-6 md:w-8" src="./Images/twitter.png"/></div>
+                <div><img class="w-6 md:w-8" src="./Images/instagram.png"/></div>
+                <div><img class="w-6 md:w-8" src="./Images/facebook.png"/></div>
+            </div>
+            <span class="text-white">CART(0)</span>
+        </div>
+
+        <!-- horizontal scroll button -->
+        <div id="arrowLeft" class="hover:cursor-pointer group z-20 absolute top-2/3 md:top-1/2 -translate-y-1/2 left-0 w-24 h-24 rounded-full p-2 border border-white flex flex-column items-center justify-center">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="white" class="group-hover:scale-125 w-8 h-full">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M10.5 19.5L3 12m0 0l7.5-7.5M3 12h18" />
+            </svg>              
+        </div>
+        <div id="arrowRight" class="hover:cursor-pointer group z-20 absolute top-2/3 md:top-1/2 -translate-y-1/2 right-0 w-24 h-24 rounded-full p-2 border border-white flex flex-column items-center justify-center">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="white" class="group-hover:scale-125 w-8 h-full">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
+            </svg>              
+        </div>
+        <!--image-->
+        
+            <div class="relative">
+                <div class="image">
+                    <img class="z-0 min-w-[300px]" src="./Images/nike1.svg"/>
+                    <h1 class="-z-10 text-black absolute top-1/2 left-1/2 text-8xl text-bold">NikeNike</h1>
+                    <h1 style="color: transparent;text-shadow: -1px -1px 0 #000,1px -1px 0 #000,-1px 1px 0 #000;" class="text-transparent z-10 absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-8xl text-bold">Nike</h1>
+                </div>
+                <div class="image">
+                    <img class="z-0 min-w-[300px]" src="./Images/nike2.svg"/>
+                    <h1 class="-z-10 text-black absolute top-1/2 left-1/2 text-8xl text-bold">NikeNike</h1>
+                    <h1 style="color: transparent;text-shadow: -1px -1px 0 #000,1px -1px 0 #000,-1px 1px 0 #000;" class="text-transparent z-10 absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-8xl text-bold">Nike</h1>
+                </div>
+                <div class="image">
+                    <img class="z-0 min-w-[300px]" src="./Images/nike3.svg"/>
+                    <h1 class="-z-10 text-black absolute top-1/2 left-1/2 text-8xl text-bold">NikeNike</h1>
+                    <h1 style="color: transparent;text-shadow: -1px -1px 0 #000,1px -1px 0 #000,-1px 1px 0 #000;" class="text-transparent z-10 absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-8xl text-bold">Nike</h1>
+                </div>
+                <div class="image">
+                    <img class="z-0 min-w-[300px]" src="./Images/nike4.svg"/>
+                    <h1 class="-z-10 text-black absolute top-1/2 left-1/2 text-8xl text-bold">NikeNike</h1>
+                    <h1 style="color: transparent;text-shadow: -1px -1px 0 #000,1px -1px 0 #000,-1px 1px 0 #000;" class="text-transparent z-10 absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-8xl text-bold">Nike</h1>
+                </div>
+            </div>
+
+
+        <!--bottom-->
+        <div class="py-8 w-full flex flex-col space-y-8 justify-between md:w-2/3 md:flex-row md:space-y-0">
+            <div >
+                <span class="text-white text-xl font-bold">$749</span>
+                <div class="text-white">*****</div>
+                <p class="max-w-sm text-white">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo, vero.</p>
+            </div>
+            <div>
+                <button class="text-white font-bold text-xl underline">BUY NOW</button>
+            </div>
+        </div>
+
+    </main>
+    <script src="./index.js"></script>
+</body>
+</html>
